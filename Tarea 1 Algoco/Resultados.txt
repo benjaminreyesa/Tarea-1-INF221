@@ -1,0 +1,171 @@
+
+USANDO 5.000 ELEMENTOS:{
+
+Vector con numeros aleatorios: 
+
+Merge Sort tomo 0.002992 segundos.
+Quick Sort tomo 0.000997 segundos.
+Selection Sort tomo 0.056856 segundos.
+Funcion Sort tomo 0.000998 segundos.
+
+----------------------------------------------------
+Vector con numeros ordenados de manera ascendente:
+
+
+Merge Sort tomo 0.002991 segundos.
+Quick Sort tomo 0.177551 segundos.
+Selection Sort tomo 0.060864 segundos.
+Funcion Sort tomo 0.000998 segundos
+
+-----------------------------------------------------
+Vector con numeros ordenados de manera descendente:
+
+
+Merge Sort tomo 0.002022 segundos.
+Quick Sort tomo 0.101728 segundos.
+Selection Sort tomo 0.055887 segundos.
+Funcion Sort tomo 0.001 segundos.
+
+-----------------------------------------------------
+Vector con numeros ordenados de manera parcialmente:
+
+
+Merge Sort tomo 0.002992 segundos.
+Quick Sort tomo 0.030916 segundos.
+Selection Sort tomo 0.056879 segundos.
+Funcion Sort tomo 0.000998 segundos.
+}
+
+USANDO 30.000 ELEMENTOS{
+
+Vector con numeros aleatorios: 
+
+Merge Sort tomo 0.019971 segundos.
+Quick Sort tomo 0.007014 segundos.
+Selection Sort tomo 2.00087 segundos.
+Funcion Sort tomo 0.006981 segundos.
+
+----------------------------------------------------
+Vector con numeros ordenados de manera ascendente:
+
+Merge Sort tomo 0.016955 segundos.
+Quick Sort tomo 6.17832 segundos.
+Selection Sort tomo 2.0054 segundos.
+Funcion Sort tomo 0.003989 segundos.
+
+-----------------------------------------------------
+Vector con numeros ordenados de manera descendente:
+
+Merge Sort tomo 0.016954 segundos.
+Quick Sort tomo 3.62495 segundos.
+Selection Sort tomo 2.00353 segundos.
+Funcion Sort tomo 0.003989 segundos.
+
+
+-----------------------------------------------------
+Vector con numeros ordenados de manera parcialmente:
+
+Merge Sort tomo 0.016979 segundos.
+Quick Sort tomo 0.305156 segundos.
+Selection Sort tomo 1.99734 segundos.
+Funcion Sort tomo 0.009973 segundos.
+
+}
+
+USANDO 15.000 ELEMENTOS{
+
+Vector con numeros aleatorios: 
+
+Merge Sort tomo 0.009973 segundos.
+Quick Sort tomo 0.003989 segundos.
+Selection Sort tomo 0.51765 segundos.
+Funcion Sort tomo 0.002993 segundos.
+
+----------------------------------------------------
+Vector con numeros ordenados de manera ascendente:
+
+Merge Sort tomo 0.008976 segundos.
+Quick Sort tomo 1.55443 segundos.
+Selection Sort tomo 0.50668 segundos.
+Funcion Sort tomo 0.001995 segundos.
+
+
+-----------------------------------------------------
+Vector con numeros ordenados de manera descendente:
+
+Merge Sort tomo 0.007979 segundos.
+Quick Sort tomo 0.919256 segundos.
+Selection Sort tomo 0.502724 segundos.
+Funcion Sort tomo 0.000998 segundos.
+
+
+-----------------------------------------------------
+Vector con numeros ordenados de manera parcialmente:
+
+Merge Sort tomo 0.008976 segundos.
+Quick Sort tomo 0.134639 segundos.
+Selection Sort tomo 0.511665 segundos.
+Funcion Sort tomo 0.007015 segundos.
+}
+
+
+------------------------------------------------------------RESULTADOS TIEMPOS MATRICES-----------------------------------------------------------------------------
+
+Multiplicacion Matriz cuadrada 10x10:
+
+Algoritmo cubico tradicional tomo 0 segundos.
+Algoritmo cubico optimizado tomo 0 segundos.
+Algoritmo de Strassen tomo 0.000997 segundos.
+
+
+Multiplicacion Matriz cuadrada 50x50:
+Algoritmo cubico tradicional tomo 0.001994 segundos.
+Algoritmo cubico optimizado tomo 0.001994 segundos. 
+Algoritmo de Strassen tomo 0.062833 segundos.
+
+
+Multiplicacion Matriz cuadrada 200x200:
+Algoritmo cubico tradicional tomo 0.111702 segundos.
+Algoritmo cubico optimizado tomo 0.110736 segundos.
+Algoritmo de Strassen tomo 3.01542 segundos.
+
+Multiplicacion Matriz cuadrada 500x500:
+
+Algoritmo cubico tradicional tomo 1.75948 segundos.
+Algoritmo cubico optimizado tomo 1.66857 segundos.
+Algoritmo de Strassen tomo 21.2565 segundos.
+
+-----------TOMAR DENUEVO--------------
+Multiplicacion Matriz cuadrada 700x700:
+Algoritmo cubico tradicional tomo 5.34317 segundos.
+Algoritmo cubico optimizado tomo 4.65701 segundos.
+Algoritmo de Strassen tomo 144.236 segundos.
+
+Multiplicacion Matriz cuadrada 1000x1000:
+Algoritmo cubico tradicional tomo 17.7205 segundos.
+Algoritmo cubico optimizado tomo 13.4876 segundos.
+Algoritmo de Strassen tomo 153.83 segundos.
+
+Multiplicacion Matriz cuadrada 1200x1200:
+Algoritmo cubico tradicional tomo 26.017 segundos.
+Algoritmo cubico optimizado tomo 22.3783 segundos.
+Algoritmo de Strassen no termina
+
+Matrices NO cuadradas:
+
+ultiplicando matrices 1000x600 * 600x800
+Algoritmo cubico tradicional tomo 7.14787 segundos.
+Algoritmo cubico optimizado tomo 6.33805 segundos.
+Algoritmo de Strassen falla.
+
+Multiplicando matrices 800x400 * 400x600:
+Algoritmo cubico tradicional tomo 2.66237 segundos.
+Algoritmo cubico optimizado tomo 2.5126 segundos.
+Algoritmo de Strassen falla.
+
+Mismo caso anterior pero con matriz B traspueta;
+
+Algoritmo cubico tradicional tomo 1.73855 segundos.
+Algoritmo cubico optimizado tomo 1.69772 segundos.
+Algoritmo de Strassen falla.
+
